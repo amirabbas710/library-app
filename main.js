@@ -130,7 +130,7 @@ try {
     console.log(` 💰 Fine: ${fine.toLocaleString("fa-IR")} Toman`);
   }
 } catch (error) {
-  console.log(`  ❌ ${err.message}`);
+  console.log(`  ❌ ${error.message}`);
 }
 
 // ============================================================
