@@ -193,7 +193,6 @@ Data Structures	Map, Set, Array
 Dependencies	✅ Zero — Pure vanilla JS
 </div>
 🎯 No frameworks. No libraries. Pure JavaScript. This project proves that clean architecture and solid OOP don't require any dependencies.
-
 🚀 Installation
 Prerequisites
 Node.js (v16 or later recommended)
@@ -210,6 +209,7 @@ cd library.app
 # 3. Run the demo
 node main.js
 That's it. No npm install needed. ✨
+
 💻 Usage
 The project ships with main.js — a full interactive demo showcasing every feature. Run it and watch the story unfold:
 node main.js
@@ -252,6 +252,7 @@ borrowBook(memberId, bookId)	Borrow operation
 returnBook(loanId)	Return + fine calc
 getActiveLoans() / getOverdueLoans()	Loan queries
 getMemberLoans(memberId)	Member's loan history
+
 📊 ReportService
 Method	Description
 getLibraryStats()	Full overview
@@ -259,12 +260,14 @@ getMostBorrowedBooks(n)	Top N books
 getActiveMembers(n)	Top N members
 getTopBooksByYear(year, n)	Best books of a year
 getCategoryDistribution()	Books per category
+
 👤 Member Types
 Type	Loan Limit	Loan Days
 Member (User)	3 books	14 days
 StudentMember	5 books	18 days
 TeacherMember	10 books	30 days
 Fine rate: 1,000 Toman per day late.
+
 🧪 Demo Scenario
 main.js walks through a complete real-world story:
 
@@ -309,6 +312,7 @@ Commit your changes (git commit -m 'Add some AmazingFeature')
 Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
+
 📄 License
 Distributed under the MIT License. See LICENSE for more information.
 
